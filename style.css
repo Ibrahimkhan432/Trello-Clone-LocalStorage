@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    overflow-x: auto;
+    background-color: skyblue;
+    margin-top: 20px; 
+}
+.header{
+    border: 2px solid blueviolet;
+background-color: blueviolet;
+text-align: center;
+color: white;
+
+}
+.box{
+    /* border: 3px solid black; */
+    text-align: center;
+    min-width: 280px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+h2{
+background-color: rgb(79, 176, 215);
+color: white;
+}
+p{
+    background-color:rgb(122, 205, 238);
+ margin:7px 10px;
+    line-height: 30px;
+    font-size: 25px;
+    border-radius: 7px;
+
+}
+input{
+height: 25px;
+border: 3px solid darkgrey;
+font-size: 20px;
+margin-top: 20px;
+}
